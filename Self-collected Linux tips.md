@@ -1,21 +1,19 @@
-Linux General Info:
-Linux OS is actually GNU project (providing all the quirks and features 
-warapping around the kernel such as file systems and package managers)
-+ Linux shell.
+1. Linux General Info:<br>
+Linux OS is actually a combination of the GNU project (providing all the quirks and features warapping around the kernel such as file systems and package managers) and the Linux shell.<br>
 
-So, the generally meant Linux OS is actually Linux shell + GNU features,
+So, when referring to Linux, it generally means the Linux shell + GNU features. <br>
 
-The linux hierachy from low to high is:
-forks---->distributions;
-differet forks may have different commands, such as for Debians (Ubuntu) the
-package are installed with apt-get, while for Red Hat, it is yum. 
+2. The linux hierachy: Forks and distributions <br>
+Forks are on a higher level, different forks each contain their own hierarchy of distros.<br>
+Main forks origniiates from the very early GNU Linux are:<br>
+1. Debian, 2. Red Hat, 2.Packman, 3.Gentoo, 4.Slackware<br>
+The most popular forks, i.e. Debian & Red Hat, contains distros of:<br>
+1. Debian: <br>
+Ubuntu, Mint, BackTrack, Kali<br>
+2. Red Hat: <br>
+CentOS, Fedora, OpenSUSE, ManDrake;<br>
+Differet forks may have different commands. For instance, for Debians (Ubuntu) the package are installed with apt-get, while for Red Hat, it is yum. 
 
 
-Main forks origniiates from the very early GNU Linux are:
-1. Debian, 2. Red Hat, 2.Packman, 3.Gentoo, 4Slackware
 
-1. Debian: 
-Ubuntu, Mint, BackTrack, Kali
- 
-2. Red Hat: 
-CentOS, Fedora, OpenSUSE, ManDrake;
+
