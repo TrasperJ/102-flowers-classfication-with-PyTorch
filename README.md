@@ -1,7 +1,7 @@
 # 102-flowers-classfication-with-PyTorch
 A detailed step-by-step walk-through for PyTorch based computer vision & deep learning beginners
 
-@What
+@What<br>
 Using the VGG 102 flowers dataset to perform simple image classification with pre-trained VGG19 backbone.
 
 @Why
