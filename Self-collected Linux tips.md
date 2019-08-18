@@ -36,6 +36,14 @@ For instance, ~/.bashrc means the hidden bashrc file stored directly in the home
 These two files are both hidden files, containing executable shell commands to configurate your bash (Bourne Again Shell, when you open up a terminal on a Linux machine, a shell is activated. A shell is a program (with its own commands) to help your communicate with the linux kernel.)<br>
 .bashrc is interactive non-login shells while .bash_profile is for login shells, meaning whenever you log-into your system with username and passwords, shell commands stored in the .bash_profile will be sequentially executed. While for .bashrc, commands contained within need to be executed via type in the following command into your terminal $ source ~/.bashrc (.bash_profile can be executed similarly as well)<br>
 The most common usage of .bashrc and .bash_profile files are to modfiied the $PATH (use command $ echo $PATH to see the PATH of your own system) of the system. $PATH is a list of directories which contains bianry executables of commands(applications) (such as ls, python, python3, etc). The shell will check over directories in $PATH to look for the executable to execute a particular command(applciation) when it is called.<br>
-Applciations can be installed in different locations in the system (all kinds of /bin directories that are for binary exectuable, such as /bin, /usr/bin, /usr/local/bin/, /home/user_name/anaconda3/bin, etc), through different methods (sudo apt-get install, pip install, conda install, install with downloader installers, etc)
+Applciations can be installed in different locations in the system (all kinds of /bin directories that are for binary exectuable, such as /bin, /usr/bin, /usr/local/bin/, /home/user_name/anaconda3/bin, etc), through different methods (sudo apt-get install, pip install, conda install, install with downloader installers, etc)<br>
+If one applciation (say your have multiple python installed on you machine through different sources) has multiple executables exist on your machine, then the one whose directory appear more ealier in the $PATH will be called, things come after will not be examined. <br>
+So, whenever a new applicaiton is installed, the $PATH should be modified using .bashrc or .bash_profile. paths that are exported later near the bottom within the .bashrc file will appear more early in $PATH, thus the correpsonding executbale has higher priority to be called.<br>
 
-
+6. The top command usage:<br>
+the top command is a linux buit-in applicaiton to monitor the processes being runned on the machine. this command has various arguments. It can be called directly with argument, such as top -u user_name,  or start-up by calling top, then directly type in the argument u, then type in the following parameters.<br>
+(1) top -u user_name：shows the processes of one particular user;<br>
+(2) top -c ：show absolute path of processes;<br>
+(3) top -k PID  then hit Enter twice, kill a process with the given PID;<br>
+(4) top -p PID: shows details of a process with PID;<br>
+(5) = : return normal state within top after execute a particular argumetn, without exiting top altogether. <br>
