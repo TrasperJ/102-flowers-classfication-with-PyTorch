@@ -2,7 +2,9 @@
 A detailed step-by-step walk-through for PyTorch based computer vision & deep learning beginners
 
 @ What is this project<br>
-Using the 102-flowers dataset (provided in the project) to perform simple image classification with pre-trained VGG19 backbone.
+Using the 102-flowers dataset (provided in the project) to perform simple image classification with pre-trained VGG19 backbone.<br>
+Here we follow a Transfer Learning philospohy to solve the 102 classes classification problem, where an ImageNet pre-trained VGG19 feature extraction head is directly utilized without fine-tuning. A new classifier head is trained with the 102-flowers dataset.<br>
+Major components to realize such a classification task, including network training & Validation, Testing, Checkpointing, Predicting with single new images, as well as image pre-processing & displaying are separately coded into self-contained functions, aiming to provide better re-usability. <br>
 
 @ Why go through this project<br>
 This is a tutorial-like project which is deliberatively practiced for beginners to follow.
