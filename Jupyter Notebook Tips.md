@@ -10,7 +10,8 @@ $ jupyter notebook --no-browser --port=8889<br>
 $ ssh -N -f -L localhost:8888:localhost:8889 username@your_remote_host_name<br>
 (3) On your local machine, open a brower and go to http://localhost:8888<br>
 (4) First time connection between the local and remote machines may requries a token verification:<br>
-The brower will display a promot-up window asking for token, and the token can be found in your remote machine terminal after executing step (1)<br>
+The brower will display a promot-up window asking for token, and the token can be found in your remote machine terminal after executing step (1).<br>
+This token verification is only needed for the first time connection. Later connections just go over steps (1) - (3).<br>
 
 1. Run cell:<br>
 (1) If want to run all cells from the top to bottom altogether, go to the Toolbar-->Cell-->Run All;<br>
