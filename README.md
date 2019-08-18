@@ -2,7 +2,7 @@
 A detailed step-by-step walk-through for PyTorch based computer vision & deep learning beginners
 
 @What<br>
-Using the VGG 102 flowers dataset to perform simple image classification with pre-trained VGG19 backbone.
+Using the VGG 102 flowers dataset (provided in the project) to perform simple image classification with pre-trained VGG19 backbone.
 
 @Why<br>
 This is a tutorial-like project which is deliberatively practiced for beginners to follow.
