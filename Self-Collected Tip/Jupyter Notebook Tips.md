@@ -33,7 +33,7 @@ Toolbar-->Edit-->Split Cell<br>
 
 5. Display line number in cells:<br>
 Toolbar-->View-->Toggle Line Number<br>
-
+ 
 6. Sometimes if directly compy&paste codes from a text editor, the indentation may be troublesome:<br>
 Select the cell with problematic indentations, hit Tab to indent, then hit Shift + Tab to inverse indentation.<br> 
 
