@@ -19,7 +19,7 @@ Going into ./flowers/, it should contains the /train, /valid. /test subdirectori
 -> Offers a Jupyter Notebook version and a .py plain file version.<br>
 
 @ Additional handbook of tips <br>
--> A self-collected tips for obsolute new-comers to Jupyter notebook, containing some tips that have made my life easier when I first started. <br>
+-> A self-collected tips for obsolute new-comers to Jupyter notebook, which have made my life easier when I first started. <br>
 <br>
 -> A self-collected tips for obsolute new-comers to Linux OS & PyTorch. (Still in-progress, accmulating tips that have really helped me.) 
 <br>
