@@ -10,6 +10,8 @@ This is a tutorial-like project which is deliberatively practiced for beginners 
 @Details<br>
 -> Using PyTorch 0.4.1 + Python3.7 + Cuda9.0 (With specific cpu & gpu switch utils)<br>
 -> 102-flowers dataset can be downloaded from https://www.kaggle.com/wassimseifeddine/102flowersdataset/downloads/102flowersdataset.zip/1<br>
+once downloaded, unzip into your project directory and making sure it is named as './flowers'. <br>
+Going into ./flowers/, it should contains the /train, /valid. /test subdirectories. Keep them unchanged.<br>
 -> train_eval,test,predict,chkpt_save & load,and image_preprossess functionaliteis are wrapped in functions for easy reuse.<br>
 -> Offers a Jupyter Notebook version and a .py plain file version.<br>
 
