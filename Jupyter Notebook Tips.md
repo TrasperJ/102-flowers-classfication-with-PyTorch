@@ -2,19 +2,18 @@ Jupyter notebook is a sequential collection of cells. Cell can be in either Edit
 cell has Raw(R), Markdown(M), and Code(Y) types. <br>
 <br>
 Cell types can be selected when the cell is in Command mode. To escape from Edit mode to Command mode, hit the ESC key. Once in Command mode, can select the cell type with R, M, Y key.<br>
-<br>
 1. Run cell:<br>
 (1) If want to run all cells from the top to bottom altogether, go to the Toolbar-->Cell-->Run All;<br>
 (2) If want to run a single cell:<br>
   a. Shift + Enter: run the cell and initialize a new cell below;
   b. Ctrl + ENter: run the cell without initializing a new cell below.
-  <br>
+<br>
 2. Insert a new cell:<br>
-Select the cell above and escape to command mode with ESC, then hit B.
-<br>
+Select the cell above and escape to command mode with ESC, then hit B.<br>
+
 3. Split a cell:<br>
-Toolbar-->Edit-->Split Cell
-<br>
+Toolbar-->Edit-->Split Cell<br>
+
 4. Clean up the running outputs of cells:<br>
 (1) Cleaning all cells to prepare for a whole new run (if connect remotely, doing this will refresh the GPUs on the remote server):<br>
   Toolbar--> Restart & Clear Output
